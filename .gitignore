@@ -1,0 +1,12 @@
+# Ignorar carpetas de dependencias
+node_modules/
+
+# Ignorar archivos de configuración o variables de entorno
+.env
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar registros y logs
+*.log
