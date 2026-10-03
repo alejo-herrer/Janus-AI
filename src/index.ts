@@ -1,8 +1,10 @@
+import { Agent } from "./agent/agent.js";
 import { OpenAIProvider } from "./llm/openai-provider.js"
 
-const agente007 = new OpenAIProvider();
+
+const agente007 = new Agent(new OpenAIProvider());
 
 
 console.log(
-    await agente007.chat("Explícame qué es un agente de IA en una oración")
+    await agente007.run("¿Qué es Dependency Injection?")
 );
